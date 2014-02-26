@@ -42,7 +42,7 @@ body {
 	-webkit-font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
 	height: 100%;
-	color:#306FA8;
+	background-color:#306FA8;
 }
 
 #left {
