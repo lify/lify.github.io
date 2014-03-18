@@ -10,7 +10,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .group:after { clear: both;}
 .group { zoom: 1;}
 
-
 @font-face {
     font-family: 'proxima_nova_softmedium';
     src: url('font/proximanovasoft-medium-webfont-webfont.eot');
@@ -23,7 +22,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 }
 
-
 @font-face {
     font-family: 'proxima_nova_softregular';
     src: url('font/proximanovasoft-regular-webfont-webfont.eot');
@@ -33,9 +31,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
          url('font/proximanovasoft-regular-webfont-webfont.svg#proxima_nova_softregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
+html {
+	position: relative;
+	min-height: 100%;
+}
 
 body {
 	font:16px/1 "proxima_nova_softregular", "Helvetica Neue", Helvetica,Arial, sans-serif;
@@ -49,14 +50,15 @@ body {
 #left {
 	width: 51%;
 	display: inline-block;
+	vertical-align: top;
 }
 
 #right {
 	width: 48%;
 	padding-top: 100px;
 	display: inline-block;
-	float: right;
 	text-align: right;
+	vertical-align: top;
 }
 
 #left p {
@@ -86,7 +88,6 @@ body {
 	border-bottom: 2px solid #1BA030;
 	font-family: 
 }
-
 
 strong {
 	font-weight: 800;
